@@ -41,7 +41,7 @@ body {
 }
 .login-sign::before {
   content: "";
-  width: 300px;
+  width: 250px;
   height: 1px;
   background-color: hsl(0, 0%, 75%);
   position: absolute;

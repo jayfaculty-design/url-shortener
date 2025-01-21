@@ -51,7 +51,7 @@ const Home = () => {
 
           <div className="login-sign relative flex flex-col gap-5">
             <button className="font-bold text-white pt-10">Login</button>
-            <button className="btn rounded-3xl w-[300px] text-[18px] hover:bg-cyan_fade bg-cyan border-none text-white">
+            <button className="btn rounded-3xl w-[250px] text-[18px] hover:bg-cyan_fade bg-cyan border-none text-white">
               Sign Up
             </button>
           </div>
