@@ -74,9 +74,9 @@ const Home = () => {
           </button>
         </nav>
         <div className="flex flex-col pl-5 gap-10">
-          <div className=" overflow-hidden">
+          <div className="flex items-center justify-center overflow-hidden">
             <img
-              className="relative left-36"
+              className="relative w-[400px]"
               src="/illustration-working.svg"
               alt=""
             />
