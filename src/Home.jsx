@@ -232,7 +232,7 @@ const Home = () => {
       </div>
 
       <div className="bg-dark_violet bg-bg_boost_mobile bg-no-repeat bg-cover h-[60vh] gap-5 p-10 flex flex-col items-center justify-center">
-        <h1 className="font-bold text-3xl text-white">
+        <h1 className="font-bold text-[28px] text-white">
           Boost your links today
         </h1>
         <button className="btn text-white bg-cyan border-none w-44 rounded-3xl hover:bg-cyan_fade">
