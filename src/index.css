@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  
+}
+body {
+  background: #F0F1F6;
+  color: black;
+  font-size: 18px;
+
+}
+.asd {
+  color: hsl(180, 68%, 78%);
+}
+.card-1::after{
+  content: "";
+  background: hsl(180, 66%, 49%);
+  width: 100px;
+  height: 10px;
+  position: absolute;
+  bottom: -50px;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+.card-2::after{
+  content: "";
+  background: hsl(180, 66%, 49%);
+  width: 100px;
+  height: 10px;
+  position: absolute;
+  bottom: -50px;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+.login-sign::before {
+  content: "";
+  width: 300px;
+  height: 1px;
+  background-color: hsl(0, 0%, 75%);
+  position: absolute;
+  top: 0;
+}
+.mobile-nav.show {
+  display: block;
+}
